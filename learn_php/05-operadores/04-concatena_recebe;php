@@ -1,0 +1,7 @@
+<?php
+/* O operador [.=] concatena e recebe um valor para uma variável*/
+
+$texto = "Este é um texto armazenado em uma váriavel no PHP recebendo outro ";
+$maisTexto = 'texto que está sendo atribuido a váriavel "$texto".';
+
+echo $texto .= $maisTexto;

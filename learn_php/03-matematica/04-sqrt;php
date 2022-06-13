@@ -1,0 +1,5 @@
+<?php
+/* A função 'sqrt()' retorna a raiz quadrada de um número */
+
+$numero =  9;
+echo "A raiz quadrada de $numero é " . sqrt($numero);
