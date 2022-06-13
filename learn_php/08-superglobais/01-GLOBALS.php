@@ -10,4 +10,4 @@ function teste(): void
 }
 
 teste();
-echo $GLOBALS['variavelZ'];
+echo '<strong>$GLOBALS - </strong>' . $GLOBALS['variavelZ'];
