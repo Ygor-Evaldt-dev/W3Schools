@@ -42,8 +42,9 @@
       } else {
         if (mb_strlen($nome) <= 2 || mb_strlen($nome) > 100) {
           echo "<p style='color'>Nome inválido";
+          return;
         }
-        echo "<p><strong>Nome: </strong>$nome.</p>";
+        echo "<p><strong>Nome: </strong>$nome</p>";
       }
     }
     ?>
